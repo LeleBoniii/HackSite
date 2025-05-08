@@ -20,7 +20,7 @@ function drawMatrix() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   // Colore del testo
-  ctx.fillStyle = "#0F0";
+  ctx.fillStyle = "#ff00ff";
   ctx.font = fontSize + "px monospace";
 
   for (let i = 0; i < drops.length; i++) {
